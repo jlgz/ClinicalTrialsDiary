@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pis2015.ub.com.clinicaltrialsdiary" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+
+    <application
+        android:name=".Controlador.Controlador"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/TemaPersonalizado" >
+
+        <activity
+            android:name=".Activities.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.registro_medico"
+            android:label="@string/title_activity_registro_medico" >
+        </activity>
+        <activity
+            android:name=".Activities.medico_principal"
+            android:label="@string/title_activity_medico_principal" >
+        </activity>
+        <activity
+            android:name=".Activities.addTrial"
+            android:label="@string/title_activity_add_trial" >
+        </activity>
+        <activity
+            android:name=".Activities.AddPacientes"
+            android:label="@string/title_activity_add_pacientes" >
+        </activity>
+        <activity
+            android:name=".Activities.Sintomas"
+            android:label="@string/title_activity_sintomas" >
+        </activity>
+        <activity
+            android:name=".Activities.Cuestionarios"
+            android:label="@string/title_activity_cuestionarios" >
+        </activity>
+        <activity
+            android:name=".Activities.Dosis"
+            android:label="@string/title_activity_dosis" >
+        </activity>
+        <activity
+            android:name=".Activities.MainPaciente"
+            android:label="@string/title_activity_main_paciente" >
+        </activity>
+        <activity
+            android:name=".Activities.NuevoCuestionario1"
+            android:label="@string/title_activity_nuevo_cuestionario1" >
+        </activity>
+        <activity
+            android:name=".Activities.NuevoCuestionario2"
+            android:label="@string/title_activity_nuevo_cuestionario2" >
+        </activity>
+        <activity
+            android:name=".Activities.CrearUsuario"
+            android:label="@string/title_activity_crear_usuario" >
+        </activity>
+        <activity
+            android:name=".Activities.EnsayoSelected"
+            android:label="@string/title_activity_ensayo_selected" >
+        </activity>
+        <activity
+            android:name=".Activities.TomaDosis"
+            android:label="@string/title_activity_toma_dosis" >
+        </activity>
+        <activity
+            android:name=".Activities.PacienteCuestionario"
+            android:label="@string/title_activity_paciente_cuestionario" >
+        </activity>
+        <activity
+            android:name=".Activities.PacienteSintoma"
+            android:label="@string/title_activity_paciente_sintoma" >
+        </activity>
+        <activity
+            android:name=".Activities.AdministrarPaciente"
+            android:label="@string/title_activity_administrar_paciente" >
+        </activity>
+        <activity
+            android:name=".Activities.ProximasCitas"
+            android:label="@string/title_activity_proximas_citas" >
+        </activity>
+        <activity
+            android:name=".Activities.EditarEnsayo"
+            android:label="@string/title_activity_editar_ensayo" >
+        </activity>
+        <activity
+            android:name=".Activities.CuestionariosPaciente"
+            android:label="@string/title_activity_cuestionarios_paciente" >
+        </activity>
+        <activity
+            android:name=".Activities.LeerCuestionario"
+            android:label="@string/title_activity_leer_cuestionario" >
+        </activity>
+        <activity
+            android:name=".Activities.editCuestionario"
+            android:label="@string/title_activity_edit_cuestionario" >
+        </activity>
+        <activity
+            android:name=".Activities.editCuestionario2"
+            android:label="@string/title_activity_edit_cuestionario2" >
+        </activity>
+        <activity
+            android:name=".Activities.PacienteCuestionarios"
+            android:label="@string/title_activity_paciente_cuestionarios" >
+        </activity>
+        <service android:name=".Alarma"
+            android:enabled="true" />
+
+        <receiver android:name=".ServicioAlarma"/>
+    </application>
+
+</manifest>

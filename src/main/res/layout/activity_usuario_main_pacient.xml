@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "#bbcde3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MnPacientName"
+        android:id="@+id/NombreUsuario"
+        android:layout_margin="10pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MnPacientDoctor"
+        android:id="@+id/DoctorPaciente"
+        android:layout_marginLeft="10pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MnPacientClinic"
+        android:id="@+id/ClinicaPaciente"
+        android:layout_marginLeft="10pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MnPacientCita"
+        android:id="@+id/Proximamente"
+        android:layout_margin="10pt" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50pt"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MnPacientSintomas"
+        android:id="@+id/sintomas"
+        android:background="#ff9900"
+        android:layout_margin="20px" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MnPacientDosis"
+        android:id="@+id/dossis"
+        android:background="#ff00ff00"
+        android:layout_margin="20px" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MnPacientCuestionario"
+        android:id="@+id/cuestionario"
+        android:background="#ff0000ff"
+        android:textColor="#ffffffff"
+        android:layout_margin="20px" />
+</LinearLayout>

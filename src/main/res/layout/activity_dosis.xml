@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="edu.ub.pis2015.joseluisguillen.pis_int.Dosis"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:id="@+id/layout_dosis"
+    android:background = "#bbcde3">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:hint="@string/dosis_editText1"
+        android:gravity="center"
+        android:layout_weight="0.08" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/dosis_editText2"
+        android:gravity="center"
+        android:layout_weight="0.07" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/dosis_editText3"
+        android:gravity="center"
+        android:layout_weight="0.11" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/editText17"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08"
+        android:hint="@string/cuando"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Confirmar"
+        android:id="@+id/button13"
+        android:layout_weight="0.09"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

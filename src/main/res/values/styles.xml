@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="FondoBarraPersonalizada">
+        <item name="android:background">#3366CC</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="TemaPersonalizado" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowTitleSize">40dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/FondoBarraPersonalizada</item>
+    </style>
+
+
+
+
+</resources>

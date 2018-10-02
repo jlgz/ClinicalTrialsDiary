@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip"
+    android:id="@+id/relative">
+
+    <!--  ListRow Left side Thumbnail image -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.35"
+        android:weightSum="1"
+        android:layout_above="@+id/textView3"
+        android:layout_toLeftOf="@+id/textView3"
+        android:layout_toStartOf="@+id/textView3"
+        android:id="@+id/linearLayout">
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:weightSum="1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="18.50" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/legendBorn"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:textColor="#343434"
+        android:textSize="12dip"
+        android:text="Data"
+        android:layout_weight="58.08"
+        android:layout_below="@+id/textView3"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_toEndOf="@+id/thumbnail" />
+
+    <TextView
+        android:id="@+id/legendName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:text="CLINICAL NOM"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_toEndOf="@+id/thumbnail" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textView3"
+        android:text="@string/pacientes"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

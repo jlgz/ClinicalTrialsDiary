@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clinical Trials Diary</string>
+    <string name="action_settings">Olvidar campos</string>
+    <string name="texto_inicioSesion">Iniciar Sesión</string>
+    <string name="texto_editText1">Usuario</string>
+    <string name="texto_editText2">Password</string>
+    <string name="texto_button1">Entrar</string>
+    <string name="texto_registrarmedico">Registrar Nuevo Médico</string>
+    <string name="texto_registroNombre">Nombre</string>
+    <string name="texto_registroApellidos">Apellidos</string>
+    <string name="texto_hombre">Mujer</string>
+    <string name="texto_mujer">\@string/Mujer</string>
+    <string name="title_activity_activity_registro_medico">Registro Médico</string>
+    <string name="task_prompt">Sexo</string>
+
+    <string-array name="task_arrays">
+        <item>Hombre</item>
+        <item>Mujer</item>
+    </string-array>
+
+    <string name="task2_prompt">Paciente</string>
+
+    <string-array name="task2_arrays">
+        <item>Enfermo</item>
+        <item>Sano</item>
+    </string-array>
+
+    <string name="task3_prompt">Tipo</string>
+    <string name="nulled"></string>
+
+    <string-array name="task3_arrays">
+        <item>Opciones</item>
+        <item>Texto</item>
+    </string-array>
+
+    <string name="infoNombreRegistro">Nombre registro:</string>
+    <string name="NombreRegistro">Nombre registro:</string>
+    <string name="infoPasswordRegistro">Password:</string>
+    <string name="PasswordRegistro">1234</string>
+    <string name="title_activity_registro_medico">Registro Médico</string>
+    <string name="textoHospital">Introduce hospital</string>
+    <string name="textoDepartamento">Introduce departamento</string>
+    <string name="RegistrarButton">Registrar</string>
+    <string name="Confirmar">Confirmar</string>
+    <string name="tipo">Tipo de ensayo</string>
+    <string name="titulopersonalizado">TÍTULO</string>
+
+    <string-array name="task4_arrays">
+        <item>a enfermos</item>
+        <item>a sanos</item>
+    </string-array>
+    <string-array name="promtdosis">
+        <item>Antes de</item>
+        <item>Después de</item>
+        <item/>
+    </string-array>
+
+    <string name="task5_prompt">Seleccione</string>
+
+    <string-array name="task5_arrays">
+        <item>antes</item>
+        <item>durante</item>
+        <item>después</item>
+    </string-array>
+
+    <!-- user Administrar sintoma -->
+    <string name="AdSintomasTITLE">Síntomas</string>
+    <string name="AdSintomasEnviar">Enviar</string>
+    <string name="AdSintomasDescripcion">Seleccione los síntomas que haya tenido indicando la hora y algún comentario extra si es necesario.</string>
+    <string name="AdSintomasCM1">Fiebre</string>
+    <string name="AdSintomasCM2">Mareo</string>
+    <string name="AdSintomasCM3">Dolor Muscular</string>
+    <string name="AdSintomasCMOtros">Otros</string>
+
+    <!-- user Main pacient -->
+    <string name="MnPacientName">Miguel H** D**</string>
+    <string name="MnPacientDoctor">Dr. Rodríguez García</string>
+    <string name="MnPacientClinic">Hospital de Barcelona</string>
+    <string name="MnPacientCita">Proximas Citas</string>
+    <string name="MnPacientSintomas">SÍNTOMAS</string>
+    <string name="MnPacientDosis">TOMA DE DOSIS</string>
+    <string name="MnPacientCuestionario">CUESTIONARIO</string>
+
+    <!-- user Cuestionari -->
+    <string name="UsrCuestionariP1">Pregunta 1: ¿Cómo se encuentra?</string>
+    <string name="UsrCuestionariP2">Pregunta 2: Puntue su calidad de vida:</string>
+    <string name="UsrCuestionariP3">Pregunta 3: ¿Sale cada día de casa?</string>
+    <string name="UsrCuestionariP4">Pregunta 4: ¿Se relaciona con normalidad con los demas?</string>
+
+    <!-- Uso general -->
+    <string name="un">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="quatre">4</string>
+    <string name="cinc">5</string>
+    <string name="sis">6</string>
+    <string name="set">7</string>
+    <string name="vuit">8</string>
+    <string name="nou">9</string>
+    <string name="deu">10</string>
+    <string name="si">Sí</string>
+    <string name="no">No</string>
+    <string name="status3">Bien</string>
+    <string name="status2">Regular</string>
+    <string name="status1">Mal</string>
+    <string name="title_activity_medico_principal">Página principal</string>
+    <string name="infoGeneralMedico">Dr. Rodriguez García \nOncología, Hospital Clínic de Barcelona</string>
+    <string name="pacientes">Pacientes:</string>
+    <string name="title_activity_add_trial">Añadir Ensayo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nombre_ensayo">Introduce nombre del ensayo</string>
+    <string name="dataSelected">Fecha seleccionada</string>
+    <string name="fecha">Fecha (dd/mm/aaaa)</string>
+    <string name="info">Información adicional:</string>
+
+    <!-- crear usuario -->
+    <string name="crear_usuario_fecha_nacimiento">Fecha de nacimiento</string>
+    <string name="crear_usuario_numero_telefono">Número de teléfono</string>
+    <string name="crear_usuario_correo_electronico">Correo electrónico</string>
+
+    <!-- cuestionarios -->
+    <string name="nuevo_cuestionario1_titulo">Titulo</string>
+    <string name="nuevo_cuestionario1_seleccionar">Selecciona los pacientes que deben responder el cuestionario:</string>
+    <string name="nuevo_cuestionario1_fecha">Fecha de publicación</string>
+    <string name="nuevo_cuestionario1_notificar">Notificar a los pacientes?</string>
+    <string name="nuevo_cuestionario1_dias_restantes">Días para dar respuesta</string>
+    <string name="nuevo_cuestionario2_pregunta1">Pregunta 1</string>
+    <string name="nuevo_cuestionario2_pregunta2">Pregunta 2</string>
+    <string name="nuevo_cuestionario2_pregunta3">Pregunta 3</string>
+    <string name="nuevo_cuestionario2_introduce_pregunta">Introduce pregunta</string>
+    <string name="nuevo_cuestionario2_respuesta1">Respuesta 1</string>
+    <string name="nuevo_cuestionario2_respuesta2">Respuesta 2</string>
+    <string name="nuevo_cuestionario2_respuesta3">Respuesta 3</string>
+    <string name="cancer_colon">Cáncer de colon</string>
+
+    <!-- add paciente -->
+    <string name="add_paciente_setting">Crear usuario</string>
+    <string name="example_doctor">Dr Rodrigez Garcia</string>
+    <string name="example_ocupation">Oncología, hospital clinico de Barcelona</string>
+    <string name="add_pacientes_confirm">Confirmar</string>
+    <string name="add_pacientes_ID">Escribe nombre Usuario del Paciente</string>
+    <string name="title_activity_add_pacientes">Añadir Pacientes</string>
+    <string name="add_pacientes_aceptar">Aceptar</string>
+    <string name="add_pacientes_cancelar">Cancelar</string>
+    <string name="title_activity_cuestionarios">Cuestionarios</string>
+    <string name="cuestionarios_example_ensy">Cáncer de colon</string>
+    <string name="title_activity_sintomas">Síntomas</string>
+    <string name="sintomas_explica">Selecciona los síntomas probables, puedes añadir el tuyo propio.</string>
+    <string name="title_activity_dosis">Dosis</string>
+    <string name="dosis_indication">Indique los horarios de las tomas:</string>
+    <string name="dosis_editText1">Nombre del compuesto</string>
+    <string name="dosis_editText2">Número de pastillas por dosis</string>
+    <string name="dosis_editText3">Número de tomas al día</string>
+    <string name="Dosis_desayuno">Desayuno</string>
+    <string name="Dosis_comida">Comida</string>
+    <string name="Dosis_cena">Cena</string>
+    <string name="Dosis_dormir">Dormir</string>
+    <string name="Sintomas_finalizar">Finalizar</string>
+    <string name="tipoEnsayo">Selecciona tipo de Ensayo:</string>
+    <string name="title_activity_main_paciente">Clinical Trials Diary</string>
+    <string name="title_activity_nuevo_cuestionario1">Nuevo Cuestionario1</string>
+    <string name="title_activity_nuevo_cuestionario2">Nuevo Cuestionario2</string>
+    <string name="title_activity_crear_usuario">Crear nuevo usuario</string>
+    <string name="title_activity_ensayo_selected">Detalles del Ensayo</string>
+    <string name="title_activity_toma_dosis">Toma de Dosis</string>
+    <string name="title_activity_paciente_cuestionario">Cuestionario</string>
+    <string name="title_activity_paciente_sintoma">Síntomas</string>
+    <string name="example_ensayo">Cáncer de colon</string>
+    <string name="example_fecha">Fecha de creación: 4 de enero de 2015</string>
+    <string name="example_visita">Última visita: 2 de febrero de 2015</string>
+    <string name="example_numpacientes">Número de pacientes: 3</string>
+    <string name="example_tipo">Tipo de ensayo: enfermos</string>
+    <string name="title_activity_administrar_paciente">Información Paciente</string>
+    <string name="option_addP">Añadir Paciente</string>
+    <string name="option_admin_dosis">Administrar dosis</string>
+    <string name="option_admin_sintomas">Administrar síntomas</string>
+    <string name="title_activity_proximas_citas">Próximas Citas</string>
+    <string name="title_activity_editar_ensayo">Editar Ensayo</string>
+    <string name="option_newc">Nuevo cuestionario</string>
+    <string name="option_newc2">Siguiente</string>
+    <string name="option_exit_newc2">Atrás</string>
+    <string name="option_addt">Añadir ensayo</string>
+    <string name="tomaDosis">Recuerde que debe tomarse 1 pastilla de Farmaproduct antes de cada comida</string>
+    <string name="No">No</string>
+    <string name="Si">Sí</string>
+    <string name="TomaDosis">¿Hoy se ha tomado la dosis?</string>
+    <string name="on">Encendido</string>
+    <string name="recordatorio">¿Quieres recibir avisos?</string>
+    <string name="dolor_muscular">Dolor muscular</string>
+    <string name="fiebre">Fiebre</string>
+    <string name="cansancio">Cansancio</string>
+    <string name="mareos">Mareos</string>
+    <string name="vomitos">Vomitos</string>
+    <string name="perdidaapet">Perdida de apetito</string>
+    <string name="nausias">Nausias</string>
+    <string name="jaqueca">Jaqueca</string>
+    <string name="addS">Añade síntoma</string>
+    <string name="nocitas">No tienes próximas citas</string>
+    <string name="introduceFrecuencia">Introduce frecuencia</string>
+    <string name="comida">de la/s comida/s</string>
+    <string name="title_activity_cuestionarios_paciente">Cuestionarios Paciente</string>
+    <string name="Contestar">Contestar pregunta</string>
+    <string name="continuar_later">Seguir más tarde</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="anterior">Anterior</string>
+    <string name="contactar">Contactar</string>
+    <string name="new_cita">Nueva cita</string>
+    <string name="cada_x">Cada x horas</string>
+    <string name="hora">Hora (hh:mm)</string>
+    <string name="title_activity_leer_cuestionario">Leer Cuestionario</string>
+    <string name="title_activity_edit_cuestionario">Editar Cuestionario</string>
+    <string name="title_activity_edit_cuestionario2">Editar Cuestionario: Preguntas</string>
+    <string name="contactar_paciente_correo">E-Mail</string>
+    <string name="contactar_paciente_llamar">Llamar</string>
+    <string name="comoContactar">Cómo contactar</string>
+    <string name="metodoContacto">Seleccione el método de contacto:</string>
+    <string name="asunto">"Correo de su medico"</string>
+    <string name="correoPaciente">angel@hotmail.com</string>
+    <string name="añadir_cita">Añadir Cita</string>
+    <string name="title_activity_paciente_cuestionarios">Cuestionarios actuales</string>
+    <string name="NumPac">"Número pacientes: "</string>
+    <string name="cargando">Cargando...</string>
+    <string name="tipo_ensayo">"Tipo de ensayo: "</string>
+    <string name="numPac">"Numero de pacientes: "</string>
+    <string name="fechacrec">"Fecha de creacion: "</string>
+    <string name="sexu">"Sexo: "</string>
+    <string name="tipu">"Tipo: "</string>
+    <string name="telefonu">"Teléfono: "</string>
+    <string name="confirmacion">¿Está seguro que quiere crear este ensayo?</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="noPermitido">Campos vacios no permitidos</string>
+    <string name="password">¿Ha olvidado la contraseña?</string>
+    <string name="error">Error</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="introducirCorreo">Introduzca el correo electrónico con el que se registró</string>
+    <string name="OlvidarContrasenya">¿Ha olvidado la contraseña?</string>
+    <string name="cargando2">Cargando...</string>
+    <string name="infoRegistro">\n\nLa contraseña generada la puede cambiar accediendo a \'¿Ha olvidado la contraseña?\' en la pantalla inicial</string>
+    <string name="errorConexion">Error de conexión... Compruebe que dispone de conexión a internet</string>
+    <string name="enviadoCorrecto">Enviado correctamente</string>
+    <string name="errorCorreoNoEncontrado">Error: Correo no encontrado</string>
+    <string name="addCorrect">Paciente añadido correctamente</string>
+    <string name="addPaciente">Add paciente</string>
+    <string name="addPacienteAEnsayo">¿Deseas añadir el paciente de ID introducido?</string>
+    <string name="recordatorio2">Recordatorio</string>
+    <string name="visitaMedica">Tiene una visita médica programada</string>
+    <string name="tituloAlarma">"Mañana a las "</string>
+    <string name="NewSint">Nuevo sintoma</string>
+    <string name="cuestionario_respondido">Cuestionario ya respondido</string>
+    <string name="cuestionario_respondido_exito">Cuestionario respondido correctamente</string>
+    <string name="loading">Cargando...</string>
+    <array name="cajon">
+        <item>Añadir Paciente</item>
+        <item>Administrar dosis</item>
+        <item>después</item>
+    </array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="salir">Salir</string>
+    <string name="volver">volver</string>
+    <string name="guardarVolver">guardar y volver</string>
+    <string name="guardar">guardar</string>
+    <string name="cuando">Cuando? (ej. Antes de las comidas)</string>
+    <string name="Guardar">Guardado correctamente</string>
+    <string name="finalizar">finalizar</string>
+    <string name="noCambio">No se han actualizado los valores de Dosis</string>
+    <string name="correcto">Se ha añadido el paciente correctamente</string>
+    <string name="idError">ID introducido erroneo</string>
+    <string name="recordatorioManyana">Recordatorio para mañana</string>
+
+
+</resources>

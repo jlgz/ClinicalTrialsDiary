@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    tools:context="pis2015.ub.com.clinicaltrialsdiary.Activities.addTrial"
+    android:background = "#bbcde3">
+
+
+<EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/nombre_ensayo"
+        android:ems="10"
+        android:id="@+id/editText5"
+        android:layout_marginTop="52dp"
+        android:layout_gravity="left|top"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp" />
+
+    <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:contentDescription="@string/dataSelected"
+            android:cropToPadding="true"
+            android:src="@drawable/calendar_icon"
+        android:layout_gravity="right|center_vertical"
+        android:layout_alignBottom="@+id/fecha"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp" />
+
+    <EditText
+        android:id="@+id/fecha"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:hint="@string/fecha"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/editText5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/imageButton1"
+        android:layout_toStartOf="@+id/imageButton1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+        </EditText>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:entries="@array/task4_arrays"
+        android:prompt="@string/tipo"
+        android:spinnerMode="dialog"
+        android:drawSelectorOnTop="true"
+        android:clickable="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/textView12"
+        android:layout_toEndOf="@+id/textView12"
+        android:layout_marginRight="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="@string/info"
+        android:layout_below="@+id/spinner"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/tipoEnsayo"
+        android:id="@+id/textView12"
+        android:layout_alignTop="@+id/spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp" />
+
+</RelativeLayout>

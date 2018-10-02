@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="pis2015.ub.com.clinicaltrialsdiary.Activities.EnsayoSelected"
+    android:orientation="vertical"
+    android:background = "#bbcde3">
+
+    <TextView android:text="@string/example_doctor" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Textviewens"
+        android:textColor="#ff000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/example_ocupation"
+        android:id="@+id/textView13"
+        android:textColor="#ff000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/example_ensayo"
+        android:id="@+id/textView14"
+        android:textColor="#ff000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/example_fecha"
+        android:id="@+id/textView15"
+        android:textColor="#ff000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/example_numpacientes"
+        android:id="@+id/textView17"
+        android:textColor="#ff000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/example_tipo"
+        android:id="@+id/textView18"
+        android:textColor="#ff000000" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="367dp"
+        android:id="@+id/listensselect"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

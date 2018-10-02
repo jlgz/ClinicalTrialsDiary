@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".AddPacientes">
+    <item android:id="@+id/add_paciente_crear_user" android:title="@string/add_paciente_setting"
+        android:orderInCategory="100" app:showAsAction="ifRoom" />
+</menu>

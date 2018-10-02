@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background = "#bbcde3">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText8"
+        android:inputType="textPersonName"
+        android:hint="@string/texto_registroNombre"
+        android:layout_margin="5dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:id="@+id/editText9"
+        android:hint="@string/texto_registroApellidos"
+        android:layout_margin="5dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <EditText
+            android:id="@+id/editText10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:hint="@string/crear_usuario_fecha_nacimiento"
+            android:inputType="none" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/dataSelected"
+            android:cropToPadding="true"
+            android:src="@drawable/calendar_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner3"
+            android:entries="@array/task_arrays"
+            android:prompt="@string/task_prompt"
+            android:spinnerMode="dialog"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner4"
+            android:entries="@array/task2_arrays"
+            android:prompt="@string/task2_prompt"
+            android:spinnerMode="dialog"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/info"
+        android:id="@+id/textView4"
+        android:layout_weight="0.08"
+        android:textColor="#ff020001"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText11"
+        android:inputType="phone"
+        android:hint="@string/crear_usuario_numero_telefono"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText12"
+        android:inputType="textEmailAddress"
+        android:hint="@string/crear_usuario_correo_electronico"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Confirmar"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp" />
+
+</LinearLayout>

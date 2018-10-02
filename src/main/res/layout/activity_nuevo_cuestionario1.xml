@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background = "#bbcde3">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText13"
+        android:hint="@string/nuevo_cuestionario1_titulo"
+        android:layout_margin="5dp"
+        android:textColor="#ff000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/nuevo_cuestionario1_seleccionar"
+        android:id="@+id/textView6"
+        android:layout_margin="5dp"
+        android:textColor="#ff000000" />
+
+    <ListView
+        android:id="@+id/listView3"
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:paddingTop="5dp"
+        android:layout_margin="5dp"
+        android:layout_weight="0.39" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <EditText
+            android:id="@+id/editText14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:hint="@string/nuevo_cuestionario1_fecha" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/dataSelected"
+            android:cropToPadding="true"
+            android:src="@drawable/calendar_icon"
+            android:layout_weight="0.25" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/nuevo_cuestionario1_notificar"
+            android:id="@+id/textView7"
+            android:layout_weight="1"
+            android:textColor="#ff000000" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox"
+            android:checked="false"
+            android:layout_weight="0.5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.14"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/nuevo_cuestionario1_dias_restantes"
+            android:id="@+id/textView8"
+            android:layout_weight="1"
+            android:textColor="#ff000000" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editText15"
+            android:layout_weight="0.5"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+
+</LinearLayout>

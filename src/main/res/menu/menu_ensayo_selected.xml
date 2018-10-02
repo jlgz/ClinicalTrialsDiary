@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pis2015.ub.com.clinicaltrialsdiary.Activities.EnsayoSelected">
+    <item android:id="@+id/option_run_addp" android:title="@string/option_addP"
+        android:orderInCategory="100" app:showAsAction="never"/>
+    <item android:id="@+id/option_run_dosis" android:title="@string/option_admin_dosis"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/option_run_sintomas" android:title="@string/option_admin_sintomas"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/option_run_cuestionarios" android:title="@string/title_activity_cuestionarios"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/option_run_proxcitas" android:title="@string/title_activity_proximas_citas"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/option_run_ensayosedit" android:title="@string/title_activity_editar_ensayo"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

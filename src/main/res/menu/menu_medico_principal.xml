@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pis2015.ub.com.clinicaltrialsdiary.Activities.medico_principal">
+    <item android:id="@+id/option_run_addt" android:title="@string/option_addt"
+        android:orderInCategory="100" app:showAsAction="ifRoom" />
+    <item android:id="@+id/Salir" android:title="@string/salir"
+        android:orderInCategory="100" app:showAsAction="ifRoom" />
+</menu>
